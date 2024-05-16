@@ -52,7 +52,7 @@ def create_parser():
     parser.add_argument('--stride',type=int,default=1,help='Stride pixels')
     parser.add_argument('--padding', type=str, default='same', help='Padding type for convolutional layers')
     parser.add_argument('--activation_conv', type=str, default='elu', help='Activation function for convolutional layers')
-    parser.add_argument('--activation_last',type=str,default='linear',help='Last activation function')
+    parser.add_argument('--activation_last',type=str,default='softmax',help='Last activation function')
     parser.add_argument('--skip',action='store_true',default=False,help='Build skip connections in the UNet')
     parser.add_argument('--no-skip',action='store_false',dest='skip',help='Do no use skip connections in the UNet')
 

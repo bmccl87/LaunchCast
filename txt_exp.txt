@@ -5,6 +5,7 @@
 64
 1
 --render
+--build_model
 --save_model
 --early_stopping
 --monitor=val_loss
