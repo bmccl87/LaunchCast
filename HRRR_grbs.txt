@@ -1,0 +1,708 @@
+0 1:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+1 2:Temperature:K (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+2 3:Relative humidity:% (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+3 4:Dew point temperature:K (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+4 5:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+5 6:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+6 7:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+7 8:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+8 9:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+9 10:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+10 11:82:82 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+11 12:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+12 13:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+13 14:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 5000 Pa:fcst time 0 hrs:from 202206081700
+14 15:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+15 16:Temperature:K (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+16 17:Relative humidity:% (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+17 18:Dew point temperature:K (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+18 19:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+19 20:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+20 21:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+21 22:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+22 23:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+23 24:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+24 25:82:82 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+25 26:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+26 27:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+27 28:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 7500 Pa:fcst time 0 hrs:from 202206081700
+28 29:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+29 30:Temperature:K (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+30 31:Relative humidity:% (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+31 32:Dew point temperature:K (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+32 33:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+33 34:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+34 35:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+35 36:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+36 37:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+37 38:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+38 39:82:82 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+39 40:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+40 41:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+41 42:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 10000 Pa:fcst time 0 hrs:from 202206081700
+42 43:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+43 44:Temperature:K (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+44 45:Relative humidity:% (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+45 46:Dew point temperature:K (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+46 47:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+47 48:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+48 49:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+49 50:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+50 51:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+51 52:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+52 53:82:82 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+53 54:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+54 55:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+55 56:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 12500 Pa:fcst time 0 hrs:from 202206081700
+56 57:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+57 58:Temperature:K (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+58 59:Relative humidity:% (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+59 60:Dew point temperature:K (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+60 61:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+61 62:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+62 63:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+63 64:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+64 65:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+65 66:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+66 67:82:82 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+67 68:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+68 69:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+69 70:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 15000 Pa:fcst time 0 hrs:from 202206081700
+70 71:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+71 72:Temperature:K (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+72 73:Relative humidity:% (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+73 74:Dew point temperature:K (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+74 75:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+75 76:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+76 77:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+77 78:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+78 79:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+79 80:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+80 81:82:82 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+81 82:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+82 83:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+83 84:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 17500 Pa:fcst time 0 hrs:from 202206081700
+84 85:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+85 86:Temperature:K (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+86 87:Relative humidity:% (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+87 88:Dew point temperature:K (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+88 89:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+89 90:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+90 91:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+91 92:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+92 93:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+93 94:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+94 95:82:82 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+95 96:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+96 97:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+97 98:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 20000 Pa:fcst time 0 hrs:from 202206081700
+98 99:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+99 100:Temperature:K (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+100 101:Relative humidity:% (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+101 102:Dew point temperature:K (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+102 103:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+103 104:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+104 105:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+105 106:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+106 107:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+107 108:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+108 109:82:82 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+109 110:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+110 111:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+111 112:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 22500 Pa:fcst time 0 hrs:from 202206081700
+112 113:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+113 114:Temperature:K (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+114 115:Relative humidity:% (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+115 116:Dew point temperature:K (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+116 117:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+117 118:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+118 119:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+119 120:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+120 121:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+121 122:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+122 123:82:82 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+123 124:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+124 125:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+125 126:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 25000 Pa:fcst time 0 hrs:from 202206081700
+126 127:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+127 128:Temperature:K (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+128 129:Relative humidity:% (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+129 130:Dew point temperature:K (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+130 131:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+131 132:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+132 133:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+133 134:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+134 135:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+135 136:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+136 137:82:82 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+137 138:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+138 139:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+139 140:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 27500 Pa:fcst time 0 hrs:from 202206081700
+140 141:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+141 142:Temperature:K (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+142 143:Relative humidity:% (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+143 144:Dew point temperature:K (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+144 145:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+145 146:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+146 147:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+147 148:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+148 149:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+149 150:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+150 151:82:82 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+151 152:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+152 153:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+153 154:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 30000 Pa:fcst time 0 hrs:from 202206081700
+154 155:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+155 156:Temperature:K (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+156 157:Relative humidity:% (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+157 158:Dew point temperature:K (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+158 159:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+159 160:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+160 161:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+161 162:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+162 163:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+163 164:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+164 165:82:82 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+165 166:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+166 167:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+167 168:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 32500 Pa:fcst time 0 hrs:from 202206081700
+168 169:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+169 170:Temperature:K (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+170 171:Relative humidity:% (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+171 172:Dew point temperature:K (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+172 173:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+173 174:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+174 175:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+175 176:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+176 177:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+177 178:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+178 179:82:82 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+179 180:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+180 181:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+181 182:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 35000 Pa:fcst time 0 hrs:from 202206081700
+182 183:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+183 184:Temperature:K (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+184 185:Relative humidity:% (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+185 186:Dew point temperature:K (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+186 187:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+187 188:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+188 189:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+189 190:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+190 191:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+191 192:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+192 193:82:82 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+193 194:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+194 195:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+195 196:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 37500 Pa:fcst time 0 hrs:from 202206081700
+196 197:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+197 198:Temperature:K (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+198 199:Relative humidity:% (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+199 200:Dew point temperature:K (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+200 201:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+201 202:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+202 203:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+203 204:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+204 205:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+205 206:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+206 207:82:82 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+207 208:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+208 209:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+209 210:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 40000 Pa:fcst time 0 hrs:from 202206081700
+210 211:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+211 212:Temperature:K (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+212 213:Relative humidity:% (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+213 214:Dew point temperature:K (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+214 215:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+215 216:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+216 217:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+217 218:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+218 219:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+219 220:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+220 221:82:82 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+221 222:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+222 223:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+223 224:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 42500 Pa:fcst time 0 hrs:from 202206081700
+224 225:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+225 226:Temperature:K (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+226 227:Relative humidity:% (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+227 228:Dew point temperature:K (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+228 229:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+229 230:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+230 231:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+231 232:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+232 233:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+233 234:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+234 235:82:82 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+235 236:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+236 237:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+237 238:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 45000 Pa:fcst time 0 hrs:from 202206081700
+238 239:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+239 240:Temperature:K (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+240 241:Relative humidity:% (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+241 242:Dew point temperature:K (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+242 243:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+243 244:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+244 245:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+245 246:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+246 247:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+247 248:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+248 249:82:82 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+249 250:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+250 251:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+251 252:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 47500 Pa:fcst time 0 hrs:from 202206081700
+252 253:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+253 254:Temperature:K (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+254 255:Relative humidity:% (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+255 256:Dew point temperature:K (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+256 257:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+257 258:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+258 259:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+259 260:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+260 261:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+261 262:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+262 263:82:82 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+263 264:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+264 265:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+265 266:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 50000 Pa:fcst time 0 hrs:from 202206081700
+266 267:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+267 268:Temperature:K (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+268 269:Relative humidity:% (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+269 270:Dew point temperature:K (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+270 271:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+271 272:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+272 273:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+273 274:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+274 275:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+275 276:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+276 277:82:82 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+277 278:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+278 279:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+279 280:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 52500 Pa:fcst time 0 hrs:from 202206081700
+280 281:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+281 282:Temperature:K (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+282 283:Relative humidity:% (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+283 284:Dew point temperature:K (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+284 285:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+285 286:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+286 287:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+287 288:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+288 289:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+289 290:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+290 291:82:82 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+291 292:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+292 293:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+293 294:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 55000 Pa:fcst time 0 hrs:from 202206081700
+294 295:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+295 296:Temperature:K (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+296 297:Relative humidity:% (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+297 298:Dew point temperature:K (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+298 299:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+299 300:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+300 301:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+301 302:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+302 303:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+303 304:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+304 305:82:82 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+305 306:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+306 307:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+307 308:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 57500 Pa:fcst time 0 hrs:from 202206081700
+308 309:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+309 310:Temperature:K (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+310 311:Relative humidity:% (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+311 312:Dew point temperature:K (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+312 313:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+313 314:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+314 315:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+315 316:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+316 317:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+317 318:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+318 319:82:82 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+319 320:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+320 321:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+321 322:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 60000 Pa:fcst time 0 hrs:from 202206081700
+322 323:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+323 324:Temperature:K (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+324 325:Relative humidity:% (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+325 326:Dew point temperature:K (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+326 327:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+327 328:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+328 329:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+329 330:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+330 331:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+331 332:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+332 333:82:82 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+333 334:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+334 335:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+335 336:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 62500 Pa:fcst time 0 hrs:from 202206081700
+336 337:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+337 338:Temperature:K (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+338 339:Relative humidity:% (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+339 340:Dew point temperature:K (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+340 341:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+341 342:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+342 343:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+343 344:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+344 345:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+345 346:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+346 347:82:82 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+347 348:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+348 349:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+349 350:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 65000 Pa:fcst time 0 hrs:from 202206081700
+350 351:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+351 352:Temperature:K (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+352 353:Relative humidity:% (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+353 354:Dew point temperature:K (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+354 355:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+355 356:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+356 357:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+357 358:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+358 359:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+359 360:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+360 361:82:82 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+361 362:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+362 363:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+363 364:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 67500 Pa:fcst time 0 hrs:from 202206081700
+364 365:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+365 366:Temperature:K (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+366 367:Relative humidity:% (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+367 368:Dew point temperature:K (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+368 369:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+369 370:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+370 371:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+371 372:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+372 373:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+373 374:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+374 375:82:82 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+375 376:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+376 377:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+377 378:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 70000 Pa:fcst time 0 hrs:from 202206081700
+378 379:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+379 380:Temperature:K (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+380 381:Relative humidity:% (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+381 382:Dew point temperature:K (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+382 383:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+383 384:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+384 385:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+385 386:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+386 387:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+387 388:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+388 389:82:82 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+389 390:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+390 391:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+391 392:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 72500 Pa:fcst time 0 hrs:from 202206081700
+392 393:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+393 394:Temperature:K (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+394 395:Relative humidity:% (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+395 396:Dew point temperature:K (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+396 397:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+397 398:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+398 399:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+399 400:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+400 401:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+401 402:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+402 403:82:82 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+403 404:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+404 405:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+405 406:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 75000 Pa:fcst time 0 hrs:from 202206081700
+406 407:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+407 408:Temperature:K (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+408 409:Relative humidity:% (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+409 410:Dew point temperature:K (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+410 411:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+411 412:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+412 413:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+413 414:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+414 415:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+415 416:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+416 417:82:82 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+417 418:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+418 419:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+419 420:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 77500 Pa:fcst time 0 hrs:from 202206081700
+420 421:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+421 422:Temperature:K (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+422 423:Relative humidity:% (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+423 424:Dew point temperature:K (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+424 425:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+425 426:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+426 427:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+427 428:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+428 429:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+429 430:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+430 431:82:82 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+431 432:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+432 433:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+433 434:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 80000 Pa:fcst time 0 hrs:from 202206081700
+434 435:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+435 436:Temperature:K (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+436 437:Relative humidity:% (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+437 438:Dew point temperature:K (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+438 439:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+439 440:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+440 441:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+441 442:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+442 443:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+443 444:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+444 445:82:82 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+445 446:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+446 447:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+447 448:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 82500 Pa:fcst time 0 hrs:from 202206081700
+448 449:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+449 450:Temperature:K (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+450 451:Relative humidity:% (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+451 452:Dew point temperature:K (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+452 453:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+453 454:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+454 455:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+455 456:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+456 457:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+457 458:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+458 459:82:82 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+459 460:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+460 461:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+461 462:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 85000 Pa:fcst time 0 hrs:from 202206081700
+462 463:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+463 464:Temperature:K (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+464 465:Relative humidity:% (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+465 466:Dew point temperature:K (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+466 467:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+467 468:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+468 469:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+469 470:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+470 471:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+471 472:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+472 473:82:82 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+473 474:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+474 475:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+475 476:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 87500 Pa:fcst time 0 hrs:from 202206081700
+476 477:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+477 478:Temperature:K (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+478 479:Relative humidity:% (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+479 480:Dew point temperature:K (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+480 481:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+481 482:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+482 483:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+483 484:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+484 485:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+485 486:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+486 487:82:82 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+487 488:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+488 489:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+489 490:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 90000 Pa:fcst time 0 hrs:from 202206081700
+490 491:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+491 492:Temperature:K (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+492 493:Relative humidity:% (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+493 494:Dew point temperature:K (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+494 495:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+495 496:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+496 497:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+497 498:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+498 499:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+499 500:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+500 501:82:82 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+501 502:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+502 503:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+503 504:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 92500 Pa:fcst time 0 hrs:from 202206081700
+504 505:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+505 506:Temperature:K (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+506 507:Relative humidity:% (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+507 508:Dew point temperature:K (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+508 509:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+509 510:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+510 511:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+511 512:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+512 513:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+513 514:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+514 515:82:82 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+515 516:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+516 517:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+517 518:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 95000 Pa:fcst time 0 hrs:from 202206081700
+518 519:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+519 520:Temperature:K (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+520 521:Relative humidity:% (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+521 522:Dew point temperature:K (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+522 523:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+523 524:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+524 525:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+525 526:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+526 527:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+527 528:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+528 529:82:82 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+529 530:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+530 531:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+531 532:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 97500 Pa:fcst time 0 hrs:from 202206081700
+532 533:Temperature:K (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+533 534:Relative humidity:% (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+534 535:Dew point temperature:K (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+535 536:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+536 537:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+537 538:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+538 539:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+539 540:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+540 541:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+541 542:82:82 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+542 543:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+543 544:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+544 545:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+545 546:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+546 547:Temperature:K (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+547 548:Relative humidity:% (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+548 549:Dew point temperature:K (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+549 550:Specific humidity:kg kg**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+550 551:Vertical velocity:Pa s**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+551 552:U component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+552 553:V component of wind:m s**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+553 554:Absolute vorticity:s**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+554 555:Cloud mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+555 556:82:82 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+556 557:Rain mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+557 558:Snow mixing ratio:kg kg**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+558 559:Graupel (snow pellets):kg kg**-1 (instant):lambert:isobaricInhPa:level 101320 Pa:fcst time 0 hrs:from 202206081700
+559 560:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 0.0 m:fcst time 0 hrs:from 202206081700
+560 561:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 0.0 m:fcst time 0 hrs:from 202206081700
+561 562:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 0.01 m:fcst time 0 hrs:from 202206081700
+562 563:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 0.01 m:fcst time 0 hrs:from 202206081700
+563 564:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 0.04 m:fcst time 0 hrs:from 202206081700
+564 565:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 0.04 m:fcst time 0 hrs:from 202206081700
+565 566:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 0.1 m:fcst time 0 hrs:from 202206081700
+566 567:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 0.1 m:fcst time 0 hrs:from 202206081700
+567 568:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 0.3 m:fcst time 0 hrs:from 202206081700
+568 569:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 0.3 m:fcst time 0 hrs:from 202206081700
+569 570:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 0.6 m:fcst time 0 hrs:from 202206081700
+570 571:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 0.6 m:fcst time 0 hrs:from 202206081700
+571 572:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 1.0 m:fcst time 0 hrs:from 202206081700
+572 573:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 1.0 m:fcst time 0 hrs:from 202206081700
+573 574:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 1.6 m:fcst time 0 hrs:from 202206081700
+574 575:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 1.6 m:fcst time 0 hrs:from 202206081700
+575 576:Soil temperature:K (instant):lambert:depthBelowLandLayer:level 3.0 m:fcst time 0 hrs:from 202206081700
+576 577:Volumetric soil moisture content:Proportion (instant):lambert:depthBelowLandLayer:level 3.0 m:fcst time 0 hrs:from 202206081700
+577 578:Maximum/Composite radar reflectivity:dB (instant):lambert:atmosphere:level 0 -:fcst time 0 hrs:from 202206081700
+578 579:3:3 (instant):lambert:cloudTop:level 0:fcst time 0 hrs:from 202206081700
+579 580:Vertically-integrated liquid:kg m**-1 (instant):lambert:atmosphere:level 0 -:fcst time 0 hrs:from 202206081700
+580 581:Visibility:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+581 582:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 0 hrs:from 202206081700
+582 583:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 4000 m:fcst time 0 hrs:from 202206081700
+583 584:Derived radar reflectivity:dB (instant):lambert:isothermal:level 263 K:fcst time 0 hrs:from 202206081700
+584 585:Wind speed (gust):m s**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+585 586:220:220 (max):lambert:pressureFromGroundLayer:levels 10000-100000 Pa:fcst time 0 hrs (max):from 202206081700
+586 587:221:221 (max):lambert:pressureFromGroundLayer:levels 10000-100000 Pa:fcst time 0 hrs (max):from 202206081700
+587 588:Geometric vertical velocity:m s**-1 (avg):lambert:sigmaLayer:levels 0.5-0.8 sigma value:fcst time 0 hrs (avg):from 202206081700
+588 589:MSLP (MAPS System Reduction):Pa (instant):lambert:meanSea:level 0:fcst time 0 hrs:from 202206081700
+589 590:Geopotential height:gpm (instant):lambert:isobaricInhPa:level 100000 Pa:fcst time 0 hrs:from 202206081700
+590 591:198:198 (max):lambert:heightAboveGround:level 1000 m:fcst time 0 hrs (max):from 202206081700
+591 592:Derived radar reflectivity:dB (max):lambert:isothermal:level 263 K:fcst time 0 hrs (max):from 202206081700
+592 593:199:199 (max):lambert:heightAboveGroundLayer:levels 5000-2000 m:fcst time 0 hrs (max):from 202206081700
+593 594:200:200 (min):lambert:heightAboveGroundLayer:levels 5000-2000 m:fcst time 0 hrs (min):from 202206081700
+594 595:199:199 (max):lambert:heightAboveGroundLayer:levels 2000-0 m:fcst time 0 hrs (max):from 202206081700
+595 596:200:200 (min):lambert:heightAboveGroundLayer:levels 2000-0 m:fcst time 0 hrs (min):from 202206081700
+596 597:199:199 (max):lambert:heightAboveGroundLayer:levels 3000-0 m:fcst time 0 hrs (max):from 202206081700
+597 598:200:200 (min):lambert:heightAboveGroundLayer:levels 3000-0 m:fcst time 0 hrs (min):from 202206081700
+598 599:Vorticity (relative):s**-1 (max):lambert:heightAboveGroundLayer:levels 2000-0 m:fcst time 0 hrs (max):from 202206081700
+599 600:Vorticity (relative):s**-1 (max):lambert:heightAboveGroundLayer:levels 1000-0 m:fcst time 0 hrs (max):from 202206081700
+600 601:Hail:m (max):lambert:atmosphere:level 0 -:fcst time 0 hrs (max):from 202206081700
+601 602:Hail:m (max):lambert:sigma:level 0.1 sigma value:fcst time 0 hrs (max):from 202206081700
+602 603:74:74 (max):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs (max):from 202206081700
+603 604:Lightning:dimensionless (instant):lambert:atmosphere:level 0 -:fcst time 0 hrs:from 202206081700
+604 605:U component of wind:m s**-1 (instant):lambert:heightAboveGround:level 80 m:fcst time 0 hrs:from 202206081700
+605 606:V component of wind:m s**-1 (instant):lambert:heightAboveGround:level 80 m:fcst time 0 hrs:from 202206081700
+606 607:Surface pressure:Pa (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+607 608:Orography:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+608 609:Temperature:K (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+609 610:Total snowfall:m (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202206081700
+610 611:Moisture availability:% (instant):lambert:depthBelowLand:level 0 m:fcst time 0 hrs:from 202206081700
+611 612:Plant canopy surface water:kg m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+612 613:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+613 614:Snow cover:% (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+614 615:Snow depth:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+615 616:2 metre temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202206081700
+616 617:Potential temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202206081700
+617 618:2 metre specific humidity:kg kg**-1 (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202206081700
+618 619:2 metre dewpoint temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202206081700
+619 620:2 metre relative humidity:% (instant):lambert:heightAboveGround:level 2 m:fcst time 0 hrs:from 202206081700
+620 621:Mass density:kg m**-3 (instant):lambert:heightAboveGround:level 8 m:fcst time 0 hrs:from 202206081700
+621 622:10 metre U wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 202206081700
+622 623:10 metre V wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0 hrs:from 202206081700
+623 624:10 metre wind speed:m s**-1 (max):lambert:heightAboveGround:level 10 m:fcst time 0 hrs (max):from 202206081700
+624 625:222:222 (max):lambert:heightAboveGround:level 10 m:fcst time 0 hrs (max):from 202206081700
+625 626:223:223 (max):lambert:heightAboveGround:level 10 m:fcst time 0 hrs (max):from 202206081700
+626 627:Percent frozen precipitation:% (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+627 628:Precipitation rate:kg m**-2 s**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+628 629:Total Precipitation:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202206081700
+629 630:Water equivalent of accumulated snow depth (deprecated):kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202206081700
+630 631:227:227 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202206081700
+631 632:Freezing Rain:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202206081700
+632 633:Storm surface runoff:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202206081700
+633 634:Baseflow-groundwater runoff:kg m**-2 (accum):lambert:surface:level 0:fcst time 0 hrs (accum):from 202206081700
+634 635:Categorical snow:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+635 636:Categorical ice pellets:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+636 637:Categorical freezing rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+637 638:Categorical rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+638 639:Forecast surface roughness:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+639 640:Frictional velocity:m s**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+640 641:Instantaneous surface sensible heat flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+641 642:Latent heat net flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+642 643:Ground heat flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+643 644:Vegetation Type:Integer(0-13) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+644 645:Surface lifted index:K (instant):lambert:isobaricLayer:levels 50000-100000 Pa:fcst time 0 hrs:from 202206081700
+645 646:Convective available potential energy:J kg**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+646 647:Convective inhibition:J kg**-1 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+647 648:Precipitable water:kg m**-2 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202206081700
+648 649:102:102 (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202206081700
+649 650:Total column:integrated mass density (instant):lambert:atmosphereSingleLayer:level 0 considered as a single layer:fcst time 0 hrs:from 202206081700
+650 651:Low cloud cover:% (instant):lambert:lowCloudLayer:level 0:fcst time 0 hrs:from 202206081700
+651 652:Medium cloud cover:% (instant):lambert:middleCloudLayer:level 0:fcst time 0 hrs:from 202206081700
+652 653:High cloud cover:% (instant):lambert:highCloudLayer:level 0:fcst time 0 hrs:from 202206081700
+653 654:Total Cloud Cover:% (instant):lambert:atmosphere:level 0 -:fcst time 0 hrs:from 202206081700
+654 655:Geopotential height:gpm (instant):lambert:cloudCeiling:level 0:fcst time 0 hrs:from 202206081700
+655 656:Geopotential height:gpm (instant):lambert:cloudBase:level 0:fcst time 0 hrs:from 202206081700
+656 657:Pressure at cloud base:Pa (instant):lambert:cloudBase:level 0:fcst time 0 hrs:from 202206081700
+657 658:Pressure:Pa (instant):lambert:cloudTop:level 0:fcst time 0 hrs:from 202206081700
+658 659:Geopotential height:gpm (instant):lambert:cloudTop:level 0:fcst time 0 hrs:from 202206081700
+659 660:Upward long-wave radiation flux:W m**-2 (instant):lambert:nominalTop:level 0:fcst time 0 hrs:from 202206081700
+660 661:Downward short-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+661 662:Downward long-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+662 663:Upward short-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+663 664:Upward long-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+664 665:Cloud Forcing Net Solar Flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+665 666:Visible Beam Downward Solar Flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+666 667:Visible Diffuse Downward Solar Flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+667 668:Upward short-wave radiation flux:W m**-2 (instant):lambert:nominalTop:level 0:fcst time 0 hrs:from 202206081700
+668 669:Storm relative helicity:m**2 s**-2 (instant):lambert:heightAboveGroundLayer:levels 3000-0 m:fcst time 0 hrs:from 202206081700
+669 670:Storm relative helicity:m**2 s**-2 (instant):lambert:heightAboveGroundLayer:levels 1000-0 m:fcst time 0 hrs:from 202206081700
+670 671:U-component storm motion:m s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 0 hrs:from 202206081700
+671 672:V-component storm motion:m s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 0 hrs:from 202206081700
+672 673:Vertical u-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-1000 m:fcst time 0 hrs:from 202206081700
+673 674:Vertical v-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-1000 m:fcst time 0 hrs:from 202206081700
+674 675:Vertical u-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 0 hrs:from 202206081700
+675 676:Vertical v-component shear:s**-1 (instant):lambert:heightAboveGroundLayer:levels 0-6000 m:fcst time 0 hrs:from 202206081700
+676 677:Geopotential height:gpm (instant):lambert:isothermZero:level 0:fcst time 0 hrs:from 202206081700
+677 678:Relative humidity:% (instant):lambert:isothermZero:level 0:fcst time 0 hrs:from 202206081700
+678 679:Pressure:Pa (instant):lambert:isothermZero:level 0:fcst time 0 hrs:from 202206081700
+679 680:Geopotential height:gpm (instant):lambert:highestTroposphericFreezing:level 0:fcst time 0 hrs:from 202206081700
+680 681:Relative humidity:% (instant):lambert:highestTroposphericFreezing:level 0:fcst time 0 hrs:from 202206081700
+681 682:Pressure:Pa (instant):lambert:highestTroposphericFreezing:level 0:fcst time 0 hrs:from 202206081700
+682 683:Geopotential height:gpm (instant):lambert:isothermal:level 263 K:fcst time 0 hrs:from 202206081700
+683 684:Geopotential height:gpm (instant):lambert:isothermal:level 253 K:fcst time 0 hrs:from 202206081700
+684 685:Best (4-layer) lifted index:K (instant):lambert:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 0 hrs:from 202206081700
+685 686:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 0 hrs:from 202206081700
+686 687:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 18000-0 Pa:fcst time 0 hrs:from 202206081700
+687 688:Boundary layer height:m (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+688 689:Geopotential height:gpm (instant):lambert:adiabaticCondensation:level 0:fcst time 0 hrs:from 202206081700
+689 690:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-0 Pa:fcst time 0 hrs:from 202206081700
+690 691:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 9000-0 Pa:fcst time 0 hrs:from 202206081700
+691 692:Convective available potential energy:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 0 hrs:from 202206081700
+692 693:Convective inhibition:J kg**-1 (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 0 hrs:from 202206081700
+693 694:Geopotential height:gpm (instant):lambert:equilibrium:level 0:fcst time 0 hrs:from 202206081700
+694 695:Pressure of level from which parcel was lifted:Pa (instant):lambert:pressureFromGroundLayer:levels 25500-0 Pa:fcst time 0 hrs:from 202206081700
+695 696:Convective available potential energy:J kg**-1 (instant):lambert:heightAboveGroundLayer:levels 0-3000 m:fcst time 0 hrs:from 202206081700
+696 697:Geopotential height:gpm (instant):lambert:freeConvection:level 0 LFC:fcst time 0 hrs:from 202206081700
+697 698:204:204 (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+698 699:206:206 (instant):lambert:heightAboveGroundLayer:levels 0-500 m:fcst time 0 hrs:from 202206081700
+699 700:Layer Thickness:m (instant):lambert:unknown:levels 261-256 K:fcst time 0 hrs:from 202206081700
+700 701:205:205 (instant):lambert:heightAboveGroundLayer:levels 0-3000 m:fcst time 0 hrs:from 202206081700
+701 702:242:242 (instant):lambert:atmosphere:level 0 -:fcst time 0 hrs:from 202206081700
+702 703:Land-sea mask:(0 - 1) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+703 704:Sea ice area fraction:(0 - 1) (instant):lambert:surface:level 0:fcst time 0 hrs:from 202206081700
+704 705:Simulated Brightness Temperature for GOES 12, Channel 3:K (instant):lambert:nominalTop:level 0:fcst time 0 hrs:from 202206081700
+705 706:Simulated Brightness Temperature for GOES 12, Channel 4:K (instant):lambert:nominalTop:level 0:fcst time 0 hrs:from 202206081700
+706 707:Simulated Brightness Temperature for GOES 11, Channel 3:K (instant):lambert:nominalTop:level 0:fcst time 0 hrs:from 202206081700
+707 708:Simulated Brightness Temperature for GOES 11, Channel 4:K (instant):lambert:nominalTop:level 0:fcst time 0 hrs:from 202206081700
