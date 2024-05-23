@@ -8,6 +8,7 @@ import pygrib
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import scipy
+import pickle
 from LC_util import *
 from datetime import datetime as dt
 from datetime import timedelta
@@ -15,7 +16,8 @@ from datetime import timedelta
 def to_netcdf(ltg_df, #pandas dataframe with time series lightning data (CC or CG)
               start_time, #string MM/DD/YYYY HH:MM:SS
               end_time, #string MM/DD/YYYY HH:MM:SS
-              time_delta #int, number of seconds to bin the data
+              time_delta, #int, number of seconds to bin the data
+              ltg_type#string: CC or CG
               ):
 
     start_dt = dt.strptime(start_time,'%m/%d/%Y %H:%M:%S')
@@ -28,14 +30,17 @@ def to_netcdf(ltg_df, #pandas dataframe with time series lightning data (CC or C
     time_list = []
     while(start_dt<end_dt):
         start_dt = start_dt+time_sample
-        print(start_dt)
         time_list.append(start_dt)
 
+    """
+    Dont forget the flash sorting algorithm.  Be sure to run that before building the grid.   
+    It was easy code, somewhere on elinor.  
+    """
 
     #load the HRRR grid
-    hrrr_data = xr.open_dataset('hrrr_64_64.nc')
-    hrrr_lats = hrrr_data['lat'].values
-    hrrr_lons = hrrr_data['lon'].values
+    hrrr_data = xr.open_dataset('/scratch/bmac87/hrrr_64_64.nc')
+    hrrr_lats = pickle.load(open('/scratch/bmac87/HRRR_ltg_bin_grid_lats_1d.p','rb'))
+    hrrr_lons = pickle.load(open('/scratch/bmac87/HRRR_ltg_bin_grid_lons_1d.p','rb'))
 
     #convert longitudes to plus 360
     xedge = hrrr_lons+360
@@ -43,18 +48,12 @@ def to_netcdf(ltg_df, #pandas dataframe with time series lightning data (CC or C
 
     xmid = [] #Blank array
     ymid = [] #Blank array
-    print(yedge[0])
-    print(yedge[len(yedge)-1])
-    print(xedge[0])
-
 
     ltg_df['Lon_Decimal_360'] = ltg_df['Lon_Decimal']+360
     ltg_df_subset = ltg_df.loc[ltg_df['Lon_Decimal_360']>=xedge[0]]
     ltg_df_subset = ltg_df_subset.loc[ltg_df_subset['Lon_Decimal_360']<=xedge[len(xedge)-1]]
     ltg_df_subset = ltg_df_subset.loc[ltg_df_subset['Lat_Decimal']>=yedge[0]]
     ltg_df_subset = ltg_df_subset.loc[ltg_df_subset['Lat_Decimal']<=yedge[len(yedge)-1]]
-
-    # print(ltg_df_subset)
 
     i=0
     while(i < len(xedge)-1):
@@ -66,53 +65,34 @@ def to_netcdf(ltg_df, #pandas dataframe with time series lightning data (CC or C
         ymid.append((yedge[i]+yedge[i+1])/2) #Calculate and append midpoints
         i+=1
 
-    #consider rounding 
+    binned_ltg_list = []
+    time_ltg_list = []
 
-    #first time rounded down/backward to the nearest 5 minutes
-    # first_time = temp1_subset['Date_Time'].iloc[0]
-    # print(first_time)
-    # if round(first_time.minute,-1)==60:
-    #     start_time = first_time.replace(minute=55,second=0,microsecond=0,nanosecond=0) #start_slicing with this time
-    # else:
-    #     start_time = first_time.replace(minute=round(first_time.minute,-1),second=0,microsecond=0,nanosecond=0)
-    # #last time rounded up to the forward nearest 5 minutes
-    # last_time = temp1['Date_Time'].iloc[len(temp1)-1]
-    # end_time = last_time.replace(minute=round(last_time.minute,+1),second=0,microsecond=0,nanosecond=0)
-    # print(end_time)
+    for t in range(len(time_list)-1):
+        print(time_list[t])
+        temp_df = ltg_df_subset[slice(time_list[t],time_list[t+1])]
+        if len(temp_df)>0:
+            gridded_ltg = boxbin(temp_df['Lon_Decimal']+360,temp_df['Lat_Decimal'],xedge,yedge,mincnt=0)
+        else:
+            gridded_ltg=np.zeros((len(xmid),len(ymid)))
 
-    # # last_time = temp1['Date_Time'][len(temp1)-1]
-    # time_sample = dt.timedelta(0, 3600)
-    # temp_array = xr.Dataset()
-    # tempArrayList = []
-    # tempArrayTimeList = []
+        temp_ds = xr.Dataset(
+                data_vars = dict(strikes=(["x","y"],gridded_ltg)),
+                coords=dict(lon=(["x"],xmid),
+                            lat=(["y"],ymid)),
+                attrs=dict(description="MERLIN Flashes: "+ltg_type)
+            )
+        temp_ds = temp_ds.fillna(0)    
+        binned_ltg_list.append(temp_ds)
+        time_ltg_list.append(time_list[t])
+            
+    ds = xr.concat(binned_ltg_list, data_vars='all',dim='time')
+    ds = ds.assign_coords(time=time_ltg_list)
+    dt_str = (start_dt-time_sample).strftime('%m%Y')
+    ds.to_netcdf('/scratch/bmac87/binned_'+ltg_type+'/'+dt_str+'.nc',mode='w',engine='netcdf4')
+    print(ds)
 
-    # t=0
-    # while(start_time<=end_time):
-    #     temp_df = temp1[slice(start_time,start_time+time_sample)]
-    #     if len(temp_df)>0: #deviates from randy's and tobias's code
-    #         C = util.boxbin(temp_df['Lon_Decimal']+360, temp_df['Lat_Decimal'], xedge, yedge, mincnt=0)
-    #         tempArray = xr.Dataset(
-    #             data_vars=dict(strikes=(["x", "y"], C)),
-    #             coords=dict(
-    #                 lon=(["x"], xmid),
-    #                 lat=(["y"], ymid),
-    #             ),
-    #             attrs=dict(description="Lightning data"),
-    #         )  # Create dataset
-    #         tempArrayList.append(tempArray)
-    #         tempArrayTimeList.append(start_time)
-
-    #     start_time = start_time+time_sample
-    #     t=t+1
     
-    # tempArray = xr.concat(tempArrayList, data_vars='all', dim='time')
-    # tempArray = tempArray.assign_coords(time=tempArrayTimeList)
-    # tempArray = tempArray.fillna(0)
-    # print(tempArray)
-    
-    # # tempArray.to_netcdf('/Users/brandonmcclung/Data/netcdfs/merlin_cc_16jan24/'+mo+yr+'.nc',mode='w',format="NETCDF4") #Save
-    #  #Print save message
-    # return tempArray
 
 def main():
     #declare start and end time
@@ -120,21 +100,23 @@ def main():
     end_time = '07/01/2022 00:00:00'
 
     #load the in cloud data (already June 2022)
-    cc_df = pd.read_pickle('/ourdisk/hpc/ai2es/bmac87/Lightning_Project/data/pickles/merlin_cc_df.p')
+    cc_ds = xr.open_dataset('/ourdisk/hpc/ai2es/bmac87/KSC_Weather_Archive/MERLIN_Flashes/merlin_cc_flash_time_series/2022_06_fl_cc.nc',engine='netcdf4')
+    cc_df = cc_ds.to_dataframe()
+    print(cc_df)
 
     #load the cg data 
-    cg_df = pd.read_pickle('/ourdisk/hpc/ai2es/bmac87/Lightning_Project/data/pickles/merlin_cg_df.p')
+    cg_ds = xr.open_dataset('/ourdisk/hpc/ai2es/bmac87/KSC_Weather_Archive/MERLIN_Flashes/merlin_cg_flash_time_series/merlin_cg_flashes.nc',engine='netcdf4')
+    cg_df = cg_ds.to_dataframe()
     cg_df.index = pd.to_datetime(cg_df.index)
     cg_df = cg_df[slice(start_time,end_time)]
+    print(cg_df)
 
-    to_netcdf(ltg_df=cc_df,#dataframe
+    to_netcdf(ltg_df=cg_df,#dataframe
               start_time=start_time,#string
               end_time=end_time,#string
-              time_delta=3600)#int in seconds
+              time_delta=3600,#int in seconds
+              ltg_type='CG'
+              )
 
 if __name__=='__main__':
     main()
-
-
-
-
