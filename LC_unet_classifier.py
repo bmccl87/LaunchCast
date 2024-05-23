@@ -9,7 +9,7 @@ from tensorflow.keras.utils import plot_model
 
 from LC_parser import *
 
-def create_unet(image_size=64,
+def create_unet(image_size=[64,84,1],
                 hrrr=True,
                 n_hrrr_params=5,
                 ksc_wx_twr=False,
@@ -44,23 +44,23 @@ def create_unet(image_size=64,
     '''
     
     #build the input layers for each hrrr sfc parameter
-    hrrr_u = tf.keras.Input(shape=(image_size,image_size,1),
+    hrrr_u = tf.keras.Input(shape=(image_size[0],image_size[1],1),
                             dtype=tf.dtypes.float64,
                             name='hrrr_sfc_u')
 
-    hrrr_v = tf.keras.Input(shape=(image_size,image_size,1),
+    hrrr_v = tf.keras.Input(shape=(image_size[0],image_size[1],1),
                             dtype=tf.dtypes.float64,
                             name='hrrr_sfc_v')
 
-    hrrr_temp = tf.keras.Input(shape=(image_size,image_size,1),
+    hrrr_temp = tf.keras.Input(shape=(image_size[0],image_size[1],1),
                             dtype=tf.dtypes.float64,
                             name='hrrr_sfc_temp')
 
-    hrrr_moist = tf.keras.Input(shape=(image_size,image_size,1),
+    hrrr_moist = tf.keras.Input(shape=(image_size[0],image_size[1],1),
                                 dtype=tf.dtypes.float64,
                                 name='hrrr_sfc_moist')
 
-    hrrr_sfc_pres = tf.keras.Input(shape=(image_size,image_size,1),
+    hrrr_sfc_pres = tf.keras.Input(shape=(image_size[0],image_size[1],1),
                                     dtype=tf.dtypes.float64,
                                     name='hrrr_sfc_pres')
 
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     print(args)
 
-    image_size=64
+    image_size=[64,64,1]
 
     if args.build_model:
         print('building the model')

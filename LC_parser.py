@@ -34,7 +34,7 @@ def create_parser():
     # High-level experiment configuration
     parser.add_argument('--label', type=str, default=None, help="Extra label to add to output files")
     parser.add_argument('--dataset', type=str, default='/home/fagg/datasets/radiant_earth/pa/', help='Data set directory')
-    parser.add_argument('--image_size', nargs=3, type=int, default=[64,64,1], help="Size of input images (rows, cols, channels)")
+    parser.add_argument('--image_size', nargs=3, type=int, default=[64,84,1], help="Size of input images (rows, cols, channels)")
     parser.add_argument('--results_path', type=str, default='./results', help='Results directory')
     parser.add_argument('--fold',type=int,default=0,help='Fold Number')
 
