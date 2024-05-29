@@ -16,3 +16,5 @@ conda activate dnn_2024_02
 module load cuDNN/8.9.2.26-CUDA-12.2.0
 
 python LC_train.py @txt_exp.txt @txt_unet.txt
+
+

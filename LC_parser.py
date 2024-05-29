@@ -33,7 +33,6 @@ def create_parser():
 
     # High-level experiment configuration
     parser.add_argument('--label', type=str, default=None, help="Extra label to add to output files")
-    parser.add_argument('--dataset', type=str, default='/home/fagg/datasets/radiant_earth/pa/', help='Data set directory')
     parser.add_argument('--image_size', nargs=3, type=int, default=[64,84,1], help="Size of input images (rows, cols, channels)")
     parser.add_argument('--results_path', type=str, default='./results', help='Results directory')
     parser.add_argument('--fold',type=int,default=0,help='Fold Number')
@@ -41,9 +40,10 @@ def create_parser():
     # Specific experiment configuration
     parser.add_argument('--epochs', type=int, default=100, help='Training epochs')
     parser.add_argument('--lrate', type=float, default=0.00001, help="Learning rate")
-    parser.add_argument('--end_digit',type=str,default='*0',help='The end number pertaining to the image file')
     parser.add_argument('--deep',type=int,default=2,help='How deep to build the model')
     parser.add_argument('--n_conv_per_step',type=int,default=2,help='The number of convolutions per deep step')
+    parser.add_argument('--loss',type=str,default='cross-entropy',help='The loss function of the optimizer')
+    parser.add_argument('--metrics',type=str,default='accuracy',help='The metric to monitor')
     
     # U-Net
     parser.add_argument('--conv_size', type=int, default=3, help='Convolution filter size per layer')

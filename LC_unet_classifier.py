@@ -9,7 +9,7 @@ from tensorflow.keras.utils import plot_model
 
 from LC_parser import *
 
-def create_unet(image_size=[64,84,1],
+def create_unet(image_size=[64,64,1],
                 hrrr=True,
                 n_hrrr_params=5,
                 ksc_wx_twr=False,
@@ -21,14 +21,14 @@ def create_unet(image_size=[64,84,1],
                 deep=4,
                 n_conv_per_step=2,
                 lrate=.0001,
-                n_types=2,
-                loss=tf.keras.losses.MeanSquaredError(),
-                metrics=tf.keras.metrics.SparseCategoricalAccuracy(),
-                padding='same',
-                strides=1,
-                conv_activation='elu',
-                last_activation='linear',
-                batch_normalization=False,
+                n_types=1,
+                loss='cross-entropy',#string or tensor flow object
+                metrics='accuracy', #string or tensor flow object 
+                padding='same', #string
+                strides=1, #int
+                conv_activation='elu', #string, consider relu
+                last_activation='linear', #predicting the amount of lightning
+                batch_normalization=False, 
                 dropout=0.0,
                 skip=False): 
 
@@ -44,23 +44,23 @@ def create_unet(image_size=[64,84,1],
     '''
     
     #build the input layers for each hrrr sfc parameter
-    hrrr_u = tf.keras.Input(shape=(image_size[0],image_size[1],1),
+    hrrr_u = tf.keras.Input(shape=(image_size,image_size,1),
                             dtype=tf.dtypes.float64,
                             name='hrrr_sfc_u')
 
-    hrrr_v = tf.keras.Input(shape=(image_size[0],image_size[1],1),
+    hrrr_v = tf.keras.Input(shape=(image_size,image_size,1),
                             dtype=tf.dtypes.float64,
                             name='hrrr_sfc_v')
 
-    hrrr_temp = tf.keras.Input(shape=(image_size[0],image_size[1],1),
+    hrrr_temp = tf.keras.Input(shape=(image_size,image_size,1),
                             dtype=tf.dtypes.float64,
                             name='hrrr_sfc_temp')
 
-    hrrr_moist = tf.keras.Input(shape=(image_size[0],image_size[1],1),
+    hrrr_moist = tf.keras.Input(shape=(image_size,image_size,1),
                                 dtype=tf.dtypes.float64,
                                 name='hrrr_sfc_moist')
 
-    hrrr_sfc_pres = tf.keras.Input(shape=(image_size[0],image_size[1],1),
+    hrrr_sfc_pres = tf.keras.Input(shape=(image_size,image_size,1),
                                     dtype=tf.dtypes.float64,
                                     name='hrrr_sfc_pres')
 
@@ -99,7 +99,7 @@ def create_unet(image_size=[64,84,1],
     #build the output layer. Use softmax if you want to predict the probability 
     #of CC and CG lightning.  Use linear or something greater than 0 to predict the 
     #amount of CC and CG lightning. 
-    output_tensor = Conv2D(filters=n_types,padding=padding,strides=1,kernel_size=(conv_size,conv_size),use_bias=True,name='MERLIN_CC_or_CG_'+last_activation,activation=last_activation)(tensor)
+    output_tensor = Conv2D(filters=n_types,padding=padding,strides=1,kernel_size=(conv_size,conv_size),use_bias=True,name='MERLIN_CG',activation=last_activation)(tensor)
 
     #compile the model 
     model = Model(inputs=[hrrr_u, hrrr_v, hrrr_temp, hrrr_moist, hrrr_sfc_pres],outputs=output_tensor)
@@ -108,46 +108,46 @@ def create_unet(image_size=[64,84,1],
 
     return model
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    print('LC_unet_classifier.py main function')
-    # Parse and check incoming arguments
-    parser = create_parser()
-    args = parser.parse_args()
-    print(args)
+#     print('LC_unet_classifier.py main function')
+#     # Parse and check incoming arguments
+#     parser = create_parser()
+#     args = parser.parse_args()
+#     print(args)
 
-    image_size=[64,64,1]
+#     image_size=[64,64,1]
 
-    if args.build_model:
-        print('building the model')
-        model = create_unet(image_size=image_size,
-                        hrrr=args.hrrr,
-                        n_hrrr_params=args.n_hrrr_params,
-                        ksc_wx_twr=args.ksc_wx_twr,
-                        n_ksc_twr_params=args.n_wxtwr_params,
-                        ksc_efm = args.ksc_efm,
-                        filters=args.conv_nfilters,
-                        conv_size=args.conv_size,
-                        pool_size=args.pool,
-                        deep=args.deep,
-                        n_conv_per_step=args.n_conv_per_step,
-                        lrate=args.lrate,
-                        loss=tf.keras.losses.MeanSquaredError(),#tensor flow loss function
-                        metrics=tf.keras.metrics.SparseCategoricalAccuracy(),#tensor flow metrics
-                        padding=args.padding,#string, same,valid,etc.
-                        strides=args.stride,#int, pixel stride
-                        conv_activation=args.activation_conv,
-                        last_activation=args.activation_last,
-                        batch_normalization=args.batch_normalization,
-                        dropout=args.dropout,
-                        skip=args.skip)
+#     if args.build_model:
+#         print('building the model')
+#         model = create_unet(image_size=image_size,
+#                         hrrr=args.hrrr,
+#                         n_hrrr_params=args.n_hrrr_params,
+#                         ksc_wx_twr=args.ksc_wx_twr,
+#                         n_ksc_twr_params=args.n_wxtwr_params,
+#                         ksc_efm = args.ksc_efm,
+#                         filters=args.conv_nfilters,
+#                         conv_size=args.conv_size,
+#                         pool_size=args.pool,
+#                         deep=args.deep,
+#                         n_conv_per_step=args.n_conv_per_step,
+#                         lrate=args.lrate,
+#                         loss=tf.keras.losses.MeanSquaredError(),#tensor flow loss function
+#                         metrics=tf.keras.metrics.SparseCategoricalAccuracy(),#tensor flow metrics
+#                         padding=args.padding,#string, same,valid,etc.
+#                         strides=args.stride,#int, pixel stride
+#                         conv_activation=args.activation_conv,
+#                         last_activation=args.activation_last,
+#                         batch_normalization=args.batch_normalization,
+#                         dropout=args.dropout,
+#                         skip=args.skip)
 
-        print(model.summary())
+#         print(model.summary())
     
-    # Plot the model if the model is built
-    if args.render and args.build_model:
-        render_fname = 'LC_model_test.png'
-        plot_model(model, to_file=render_fname, show_shapes=True, show_layer_names=True)
+#     # Plot the model if the model is built
+#     if args.render and args.build_model:
+#         render_fname = 'LC_model_test.png'
+#         plot_model(model, to_file=render_fname, show_shapes=True, show_layer_names=True)
 
     
 

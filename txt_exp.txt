@@ -1,11 +1,12 @@
---batch=2
---epochs=2
+--batch=32
+--epochs=200
 --image_size
 64
 64
 1
 --render
 --build_model
+--load_data
 --save_model
 --early_stopping
 --monitor=val_loss
@@ -15,5 +16,5 @@
 --force
 --cache=
 --no-gpu
---nogo
 --label=LC_test
+-vvv

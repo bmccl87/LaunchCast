@@ -57,7 +57,7 @@ def generate_fname(args):
         label_str = "%s_"%args.label
 
     # Put it all together, including #of training folds and the experiment rotation
-    return 'LC_'+label_str
+    return label_str
 
 def execute_exp(args=None, multi_gpus=False):
 
@@ -91,6 +91,7 @@ def execute_exp(args=None, multi_gpus=False):
     if args.load_data:
         #load the data
         print('loading the data')
+        ds_dict = pickle.load(open('/scratch/bmac87/0622_trng_val.p','rb'))
 
     ####################################################
 
@@ -109,6 +110,7 @@ def execute_exp(args=None, multi_gpus=False):
     
     if args.build_model:
         print('building the model')
+        print('image_size',image_size)
         model = create_unet(image_size=image_size,
                         hrrr=args.hrrr,
                         n_hrrr_params=args.n_hrrr_params,
@@ -120,11 +122,9 @@ def execute_exp(args=None, multi_gpus=False):
                         pool_size=args.pool,
                         deep=args.deep,
                         n_conv_per_step=args.n_conv_per_step,
-                        nsteps=args.n_time_steps,#time
                         lrate=args.lrate,
-                        n_classes=3,#int, number of predictions
-                        loss=tf.keras.losses.MeanSquaredError(),#tensor flow loss function
-                        metrics=tf.keras.metrics.SparseCategoricalAccuracy(),#tensor flow metrics
+                        loss=args.loss,#tensor flow loss function
+                        metrics=args.metrics,#tensor flow metrics
                         padding=args.padding,#string, same,valid,etc.
                         strides=args.stride,#int, pixel stride
                         conv_activation=args.activation_conv,
@@ -163,7 +163,6 @@ def execute_exp(args=None, multi_gpus=False):
     if args.render:
         wandb.log({'model architecture': wandb.Image(render_fname)})
 
-            
     #####
     # Callbacks
     cbs = []
@@ -187,13 +186,13 @@ def execute_exp(args=None, multi_gpus=False):
         print('Fitting model')
     
     #train the model
-    history = model.fit(ds_train,
+    history = model.fit(x = ds_dict['x'],
+                        y = ds_dict['y'],
+                        batch_size = args.batch,
                         epochs=args.epochs,
-                        steps_per_epoch=args.steps_per_epoch,
                         use_multiprocessing=True, 
                         verbose=args.verbose>=2,
-                        validation_data=ds_valid,
-                        validation_steps=None,
+                        validation_split=.25,
                         callbacks=cbs)
 
     # Done training
@@ -230,15 +229,22 @@ if __name__ == "__main__":
     if args.verbose >= 3:
         print('Arguments parsed')
 
+    visible_devices = tf.config.get_visible_devices('GPU') 
+    n_visible_devices = len(visible_devices)
+
     # Turn off GPU?
     if not args.gpu or "CUDA_VISIBLE_DEVICES" not in os.environ.keys():
+        visible_devices = tf.config.get_visible_devices('GPU') 
+        n_visible_devices = len(visible_devices)
+        print(n_visible_devices)
         tf.config.set_visible_devices([], 'GPU')
         print('NO VISIBLE DEVICES!!!!')
 
 
-    # GPU check
+    # # GPU check
     # visible_devices = tf.config.get_visible_devices('GPU') 
     # n_visible_devices = len(visible_devices)
+    # print(n_visible_devices)
     # print('GPUS:', visible_devices)
     # if n_visible_devices > 0:
     #     for device in visible_devices:

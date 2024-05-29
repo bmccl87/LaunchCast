@@ -8,8 +8,10 @@
 --padding=same
 --conv_size=3
 --activation_conv=elu
---activation_last=softmax
+--activation_last=linear
 --deep=3
 --n_conv_per_step=2
 --dropout=0.0             
 --no-skip
+--loss=mse
+--metrics=accuracy
