@@ -1,0 +1,11 @@
+--padding=same
+--stride=1
+--activation_conv=relu
+--activation_last=sigmoid
+--pool_size=2
+--pool_type=max
+--num_layers_per_block=3
+--encoder_deep=5
+--spatial_dropout=0.00
+--L2_reg=0.0
+--batch_normalization
