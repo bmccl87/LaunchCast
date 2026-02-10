@@ -1,0 +1,7 @@
+--project=LC_Forecast_3DConv
+--exp_pre=HRRR_MRMS_GLM_no_EFM_no_Zdr_2_MERLIN_total_convex_hull
+--results_path=/scratch/bmac87/LaunchCast_scratch/results/
+--checkpt_path=/scratch/bmac87/LaunchCast_scratch/results/
+--data_path=/scratch/bmac87/
+--batch=4
+--exp_name=HRRR_MRMS_GLM_no_EFM_no_Zdr_2_MERLIN_total_convex_hull_rot_1_early_stop_True_conv_act_relu_L2_0.0__BN_False_SD_0.000_pool_max__2dkernel_8__last_act_sigmoid_epochs_250__no_noise_lrate_0.000000100__label_BCE_Dense_1024_2048_latent_warning
