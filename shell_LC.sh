@@ -1,18 +1,15 @@
 #!/bin/bash
 #
-#SBATCH --partition=ai2es
-#SBATCH --job-name=LC_train
-#SBATCH --output=batch_out/LC_train_%J_stdout.txt
-#SBATCH --error=batch_out/LC_train_%J_stderr.txt
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=16G
+#SBATCH --partition=normal
+#SBATCH --job-name=ZdrDwn
+#SBATCH --output=/home/bmac87/LaunchCast/0_data_acq/batch_out_mrms/zdr_down_%J_stdout.txt
+#SBATCH --error=/home/bmac87/LaunchCast/0_data_acq/batch_out_mrms/zdr_down_%J_stderr.txt
+#SBATCH --nodes=2
+#SBATCH --ntasks=40
+#SBATCH --mem=2G
+#SBATCH --time=24:00:00
 #SBATCH --mail-user=bmac7167@ou.edu
 #SBATCH --mail-type=ALL
-#SBATCH --chdir=/home/bmac87/LaunchCast/
-#SBATCH --time=12:00:00
+#SBATCH --array=0-31
 
-. /home/fagg/tf_setup.sh
-conda activate dnn_2024_02
-module load cuDNN/8.9.2.26-CUDA-12.2.0
-
-python LC_train.py @txt_exp.txt @txt_unet.txt
+python MRMS_Parallelized_v3_brandon.py --idx=$SLURM_ARRAY_TASK_ID
