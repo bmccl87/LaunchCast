@@ -8,4 +8,4 @@ To run the model, please look at the Jupyter Notebook for code to run the model.
 
 If the model.keras file does not load, it is an issue with the tensorflow environment. 
 
-The python environment yaml file is also included for transparency. 
+The python environment (pip) requirements is in the requirements.txt file. 
