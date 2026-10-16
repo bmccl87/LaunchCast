@@ -1,0 +1,41 @@
+1:Maximum/Composite radar reflectivity:dB (instant):lambert:atmosphere:level 0 -:fcst time 0m mins:from 201801010000
+2:3:3 (instant):lambert:cloudTop:level 0:fcst time 0m mins:from 201801010000
+3:Vertically-integrated liquid:kg m**-1 (instant):lambert:atmosphere:level 0 -:fcst time 0m mins:from 201801010000
+4:Visibility:m (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+5:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 1000 m:fcst time 0m mins:from 201801010000
+6:Derived radar reflectivity:dB (instant):lambert:heightAboveGround:level 4000 m:fcst time 0m mins:from 201801010000
+7:Wind speed (gust):m s**-1 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+8:Updraft Helicity:m**2 s**-2 (instant):lambert:heightAboveGroundLayer:levels 5000-2000 m:fcst time 0m mins:from 201801010000
+9:U component of wind:m s**-1 (instant):lambert:heightAboveGround:level 80 m:fcst time 0m mins:from 201801010000
+10:V component of wind:m s**-1 (instant):lambert:heightAboveGround:level 80 m:fcst time 0m mins:from 201801010000
+11:Surface pressure:Pa (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+12:2 metre temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0m mins:from 201801010000
+13:2 metre specific humidity:kg kg**-1 (instant):lambert:heightAboveGround:level 2 m:fcst time 0m mins:from 201801010000
+14:2 metre dewpoint temperature:K (instant):lambert:heightAboveGround:level 2 m:fcst time 0m mins:from 201801010000
+15:10 metre U wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0m mins:from 201801010000
+16:10 metre V wind component:m s**-1 (instant):lambert:heightAboveGround:level 10 m:fcst time 0m mins:from 201801010000
+17:Time-mean 10 metre wind speed:m s**-1 (avg):lambert:heightAboveGround:level 10 m:fcst time 0m mins (avg):from 201801010000
+18:Time-mean 10 metre U wind component:m s**-1 (avg):lambert:heightAboveGround:level 10 m:fcst time 0m mins (avg):from 201801010000
+19:Time-mean 10 metre V wind component:m s**-1 (avg):lambert:heightAboveGround:level 10 m:fcst time 0m mins (avg):from 201801010000
+20:Time-mean surface downward short-wave radiation flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0m mins (avg):from 201801010000
+21:Visible Beam Downward Solar Flux:W m**-2 (avg):lambert:surface:level 0:fcst time 0m mins (avg):from 201801010000
+22:Percent frozen precipitation:% (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+23:Precipitation rate:kg m**-2 s**-1 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+24:Categorical snow:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+25:Categorical ice pellets:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+26:Categorical freezing rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+27:Categorical rain:(Code table 4.222) (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+28:Geopotential height:gpm (instant):lambert:cloudBase:level 0:fcst time 0m mins:from 201801010000
+29:Geopotential height:gpm (instant):lambert:cloudCeiling:level 0:fcst time 0m mins:from 201801010000
+30:Geopotential height:gpm (instant):lambert:cloudTop:level 0:fcst time 0m mins:from 201801010000
+31:Upward long-wave radiation flux:W m-2 (instant):lambert:nominalTop:level 0:fcst time 0m mins:from 201801010000
+32:Surface downward short-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+33:Surface downward long-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+34:Surface upward short-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+35:Surface upward long-wave radiation flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+36:Visible Beam Downward Solar Flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+37:Visible Diffuse Downward Solar Flux:W m**-2 (instant):lambert:surface:level 0:fcst time 0m mins:from 201801010000
+38:Simulated Brightness Temperature for GOES 12, Channel 3:K (instant):lambert:nominalTop:level 0:fcst time 0m mins:from 201801010000
+39:Simulated Brightness Temperature for GOES 12, Channel 4:K (instant):lambert:nominalTop:level 0:fcst time 0m mins:from 201801010000
+40:Simulated Brightness Temperature for GOES 11, Channel 3:K (instant):lambert:nominalTop:level 0:fcst time 0m mins:from 201801010000
+41:Simulated Brightness Temperature for GOES 11, Channel 4:K (instant):lambert:nominalTop:level 0:fcst time 0m mins:from 201801010000
